@@ -1,0 +1,116 @@
+*
+{
+	margin: 0;
+	padding: 0;
+   box-sizing: border-box;
+
+   
+}
+
+.trko
+{
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+   width: 70%;
+	 background: #EC6F66; 
+   background: -webkit-linear-gradient(to right, #F3A183, #EC6F66);  
+   background: linear-gradient(to right, #F3A183, #EC6F66); 
+
+}
+input[type=date]
+{
+  text-transform: uppercase;
+
+
+}
+span
+{
+  padding: 12px;
+  font-size: 1.3em;
+  font-weight: bold;
+
+}
+label
+{
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+input[type=text], input[type=password], input[type=tel], input[type=date], input[type=number] {
+  width: 330px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  outline: none;
+  border-radius: 14px;
+  background-color: #8E54E9;
+  color: #fff;
+   margin-left: 10px;
+  font-size: 1em;
+  font-weight: bold;
+
+}
+select
+{
+   margin-left: 10px;
+  background-color: #8E54E9;
+  color: #fff;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  width: 190px;
+  padding: 12px 24px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  
+}
+
+input[type=submit],input[type=reset] {
+  background-color: #24C6DC;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  outline: none;
+  margin-left: 10px;
+  border-radius: 12px;
+}
+
+input[type=reset]:hover
+{
+  background-color: #7474BF;
+  opacity: 0.8;
+
+}
+
+input[type=submit]:hover{
+
+  background-color: #7474BF;
+  opacity: 0.8;
+}
+
+@media (max-width: 768px)
+{
+  .trko
+  {
+    width: 400px;
+    height: auto;
+    margin-top: 240px;
+    
+  }
+  .trko a
+  {
+   display: flex;
+   flex-wrap: wrap;
+   flex-basis: 50px;
+
+  }
+}
